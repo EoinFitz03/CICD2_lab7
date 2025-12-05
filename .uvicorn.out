@@ -1,0 +1,50 @@
+INFO:     Will watch for changes in these directories: ['/workspaces/CICD2_lab7']
+INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+INFO:     Started reloader process [4154] using StatReload
+INFO:     Started server process [4175]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     193.1.57.1:0 - "GET / HTTP/1.1" 404 Not Found
+INFO:     193.1.57.1:0 - "GET /docs HTTP/1.1" 200 OK
+INFO:     193.1.57.1:0 - "GET /openapi.json HTTP/1.1" 200 OK
+INFO:     193.1.57.1:0 - "POST /order HTTP/1.1" 200 OK
+WARNING:  StatReload detected changes in 'app/main_topic.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [4175]
+INFO:     Started server process [5595]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  StatReload detected changes in 'app/order_worker.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [5595]
+INFO:     Started server process [6069]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  StatReload detected changes in 'app/payment_worker.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [6069]
+INFO:     Started server process [6331]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  StatReload detected changes in 'app/payment_worker.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [6331]
+INFO:     Started server process [6347]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  StatReload detected changes in 'app/payment_worker.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [6347]
+INFO:     Started server process [6485]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
